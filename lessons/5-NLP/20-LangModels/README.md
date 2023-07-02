@@ -2,7 +2,7 @@
 
 In all of our previous tasks, we were training a neural network to perform a certain task using labeled dataset. With large transformer models, such as BERT, we use language modelling in self-supervised fashion to build a language model, which is then specialized for specific downstream task with further domain-specific training. However, it has been demonstrated that large language models can also solve many tasks without ANY domain-specific training. A family of models capable of doing that is called **GPT**: Generative Pre-Trained Transformer.
 
-## [Pre-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/120)
+## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/120)
 
 ## Text Generation and Perplexity
 
@@ -23,7 +23,7 @@ $$
 
 ## GPT is a Family
 
-GPT is not a single model, but rather a collection of models developed and trained by [OpenAI](http://openai.org). The latest model openly available is [GPT-2](https://huggingface.co/docs/transformers/model_doc/gpt2#openai-gpt2), which has up to 1.5 billion parameters (there are several variations of the model, so you can select one for your tasks that is a good compromise between size/performance). Latest GPT-3 model has up to 175 billion parameters, and is available [as a cognitive service from Microsoft Azure](https://azure.microsoft.com/en-us/services/cognitive-services/openai-service/#overview?WT.mc_id=academic-57639-dmitryso), and as [OpenAI API](https://openai.com/api/).
+GPT is not a single model, but rather a collection of models developed and trained by [OpenAI](http://openai.org). The latest model openly available is [GPT-2](https://huggingface.co/docs/transformers/model_doc/gpt2#openai-gpt2), which has up to 1.5 billion parameters (there are several variations of the model, so you can select one for your tasks that is a good compromise between size/performance). Latest GPT-3 model has up to 175 billion parameters, and is available [as a cognitive service from Microsoft Azure](https://azure.microsoft.com/en-us/services/cognitive-services/openai-service/#overview?WT.mc_id=academic-77998-cacaste), and as [OpenAI API](https://openai.com/api/).
 
 ## Prompt-based Inference
 
@@ -53,4 +53,4 @@ Continue your learning in the following notebooks:
 
 New general pre-trained language models do not only model language structure, but also contain vast amount of commonsense knowledge. Thus, they can be effectively used to solve some NLP tasks in zero-shop or few-shot settings.
 
-## [Post-lecture quiz](https://black-ground-0cc93280f.1.azurestaticapps.net/quiz/220)
+## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/220)
